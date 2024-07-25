@@ -1,0 +1,385 @@
+*{
+  margin: 0;
+  padding:0;
+  
+
+
+}
+#root{
+  background-color: rgb(246, 246, 246);
+}
+ul{
+  margin: 0;
+  padding: 0;
+}
+.widthh{
+  width: 1250px;
+}
+.width-f{
+  width: 1260px;
+}
+.width-100{
+  width: 100px;
+}
+.width-30{
+  width:30px;
+}
+.width-55{
+  width: 55px;
+}
+.width-50{
+  width: 50px;
+}
+.width-190{
+  width: 190px;
+}
+.h-315{
+  height: 315px;
+}
+.h-50{
+  height: 50px;
+}
+.h-60p{
+  height: 60%;
+}
+.h-300{
+  height: 300px;
+}
+.bg-orange{
+  background-color:rgb(255, 98, 0);
+}
+.bg-gray{
+  background-color:rgb(246, 246, 246);
+}
+.nav1{
+  margin: 0;
+  padding: 0;
+/* height:6vh; */
+}
+
+.h-text{
+  font-size:0.8em;
+  font-weight:400;
+  font-stretch: expanded;
+  color: #ffffff;
+}
+.select-l{
+  width: 60px;
+}
+.daraz-color{
+  color: rgb(255, 255, 255);
+}
+.nav-h:hover{
+  color:rgb(255, 171, 37);
+}
+.w-fit{
+  /* margin:0px 115px; */
+}
+.bg-none{
+  background: transparent;
+}
+.border-none{
+  border: none;
+}
+.f-bold{
+  font-size: smaller;
+  font-weight: 500;
+}
+.outline{
+  outline: none;
+}
+.border-r{
+  border-radius: 10px;
+}
+.logo{
+  color: #ffffff;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-stretch:condensed;
+}
+
+.bb{
+  border: 2px solid black;
+}
+.category li:hover{
+   background-color: rgb(205, 205, 205);}
+.category li:hover{
+   color: rgba(255, 110, 37, 0.97);
+}
+#submenu{
+  padding:2px 0;
+  border-radius: 10px;
+  background-color: #ffffff;
+  visibility:hidden;
+  width: 200px;
+  height: 345px;
+  position:absolute;
+  left: 404px;
+  top: 126px;
+  z-index: 1;
+}
+#submenu2{
+  border-left: 1px solid gainsboro;
+  border-radius: 10px;
+  background-color: #ffffff;
+  visibility:hidden;
+  position:absolute;
+  left: 175px;
+  top: 1px;
+  width: 750px;
+  height: 100%;
+  z-index: 2;
+}
+.category li:hover ul#submenu{
+  visibility:visible;
+}
+#submenu li:hover ul#submenu2{
+  visibility:visible;
+}
+
+.border-round{
+  border-radius: 50%;
+  border: 1px solid gainsboro;
+}
+.c-text{
+  font-size: 13px;
+  font-weight: 500;
+  font-family: sans-serif;
+  margin: 10px;
+}
+.secondary{
+  color: gainsboro;
+}
+.full{
+  width: 100%;
+  height: 100%;
+}
+.list-unstyled{
+  margin: 3px 0px;
+}
+.polygon {
+  border: 3px solid rgba(24, 123, 145, 0.616);
+  clip-path: polygon(0 0, 100% 0, 98% 100%, 2% 100%);
+  height: 170px;
+  border-radius: 20px;
+
+}
+.showmore{
+  color:  rgba(255, 110, 37, 0.97);
+  border: 1px solid  rgba(255, 110, 37, 0.97);
+}
+.orange-text{
+  font-family: "Roboto";
+  line-height: 1.5;
+  color:  rgba(255, 110, 37, 0.97);
+  font-weight: 400;
+  font-size: 21px;
+}
+.h5-color{
+  background-color: rgba(7, 105, 127, 0.907);
+  color: #ffffff;
+  border-bottom-right-radius: 30px;
+}
+.line-line{
+  border-right: 3px solid rgba(7, 105, 127, 0.907);
+  border-right-style: dashed;
+}
+.tc{
+  background-color: rgba(192, 214, 214, 0.837);
+  color:rgba(7, 105, 127, 0.907);
+  border-radius: 30px;
+}
+.cn{
+  color: #ffffff;
+  border-radius: 5px;
+  background-color: rgba(7, 105, 127, 0.907);
+}
+.off{
+  color:rgba(7, 105, 127, 0.907);
+}
+.hrr{
+  border-bottom: 1px solid rgb(216, 216, 216);
+}
+.topi{
+  font-size: 22px;
+  font-family: "Roboto";
+  color: rgb(67, 66, 66);
+}
+.b-shadow:hover {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+}
+.border-l{
+  border-right: 1px solid rgba(0, 0, 0, 0.12);
+}
+.border-b{
+  border-bottom: 1px solid rgba(0, 0, 0, 0.12);
+}
+.robo{
+  font-family:"Roboto", system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  
+}
+.spacing{
+  letter-spacing: -1px;
+  font-family: "Roboto";
+  line-height: 1;
+  
+}
+.discount{
+  font-size: small;
+  font-family: "Roboto";
+  line-height: 0.4;
+}
+@font-face {
+  font-family: "Roboto";
+  src: url(./font/Roboto-Regular.ttf);
+}
+.cut{
+  text-decoration:line-through;
+}
+.tiny{
+  line-height: 0.1;
+  font-size: 11px;
+}
+.App{
+  line-height:0.1;
+  font-size: 12px;
+  color:#ffffff;
+  letter-spacing: 1;
+}
+.happy{
+  font-family: "Oswald", sans-serif;
+  font-weight: 600;
+  font-optical-sizing: auto;
+  color: rgba(255, 110, 37, 0.97);
+  font-size: 20px;
+  
+  
+}
+.smm{
+  line-height: 0.1;
+  font-size: 9px;
+}
+.column{
+  display: flex;
+}
+.f-text{
+  font-size: 15px;
+  font-weight: 500;
+}
+.absolute{
+  box-shadow:rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  margin-top:-20px;
+  margin-left: 67px;
+  margin-bottom: -10px;
+  z-index: 1;
+}
+.brand{
+  margin-top: -60px;
+}
+.load{
+  font-family: "Roboto";
+  color: rgba(255, 110, 37, 0.97);
+  font-weight: bold;
+  width: 400px;
+}
+.orange-border{
+  border: 1px solid rgba(255, 110, 37, 0.97);
+}
+.bg-footer{
+  background-color: rgb(244 240 240)
+}
+*{
+  margin: 0;
+  padding: 0;
+}
+.bg-item{
+  background-color:rgb(224 231 236);
+}
+.service{
+  background-color:#fafafa;
+}
+.item-images{
+  border: 1px solid gainsboro;
+  margin: 7px;
+}
+.item-images:hover{
+  border-color: rgba(255, 110, 37, 0.97);
+}
+.describe-item{
+  font-size: larger;
+  font-family: "Roboto";
+  line-height: 1.2;
+}
+.rating{
+  
+  line-height: 1.5;
+  font-size:12px;
+  color: #1a9cb7;;
+}
+.h-length{
+  width: 91%;}
+.item-rs{
+  line-height: 1;
+  color:rgba(255, 110, 37, 0.97);
+  font-size: 30px;
+  font-family: "Roboto";
+}
+.incre-btn{
+  color: rgb(169, 170, 171);
+  border: none;
+  width: 30px;
+  height: 35px;
+}
+.buyNow{
+  background-color: #1a9cb7;
+  background: #26abd4;
+  color: #fff;
+}
+.buyNow:hover{
+  background-color:  #229abe;
+}
+.addtocard{
+  border: 1px solid #f57224;
+  background: #f57224;
+  color: #fff;
+}
+.addtocard:hover{
+  background-color: #e56921;
+}
+.d-tiny{
+  font-size: 12px;
+}
+.address-text{
+  font-size: 16px;
+  font-family: "Roboto";
+}
+.change{
+  font-size: 12px;
+  color: #26abd4;
+}
+.small{
+  font-size: 12px;
+  font-weight: 500;
+}
+.cash{
+  font-size: 15px;
+}
+.line-h{
+  line-height: 90%;
+}
+.i-brand{
+  color:#3f0686;
+}
+.tbrand{
+  font-size: 14px;
+  font-family:"Roboto";
+}
+.tback{
+  font-size: 12px;
+  font-family:"Roboto";
+}
+.w-line{
+  height: 10px;
+  background-color: #fff;
+  background: #fff;
+}
